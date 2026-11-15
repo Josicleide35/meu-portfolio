@@ -11,7 +11,7 @@ Este portfólio foi desenvolvido como atividade do curso de Desenvolvimento de S
 - GitHub Pages
 
 ## Link do site publicado
-Em breve, disponível pelo GitHub Pages.
+https://josicleide35.github.io/meu-portfolio/
 
 ## Funcionamento do projeto
 O site possui um menu de navegação que permite acessar as seções de Perfil, Projetos, Habilidades e Contato. O layout foi desenvolvido utilizando Bootstrap para facilitar a organização e adaptação em diferentes tamanhos de tela.
