@@ -1,0 +1,65 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5fc;
+    color: #333;
+}
+
+/* Menu */
+.navbar {
+    background-color: #563477 !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Perfil */
+#perfil {
+    padding: 80px 20px !important;
+}
+
+#perfil h1 {
+    color: #563477;
+    font-weight: bold;
+}
+
+#perfil h3 {
+    color: #8b63aa;
+}
+
+/* Títulos */
+h2 {
+    color: #563477;
+    font-weight: bold;
+}
+
+/* Projetos */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Recurso novo: animação ao passar o mouse */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(86, 52, 119, 0.2);
+}
+
+/* Habilidades */
+#habilidades {
+    background-color: #eee5f7;
+    border-radius: 15px;
+}
+
+/* Links */
+a {
+    color: #8052a5;
+}
+
+/* Rodapé */
+footer {
+    background-color: #563477 !important;
+}
