@@ -1,65 +1,125 @@
-/* Estilo geral */
+/* CORES GERAIS */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f5fc;
-    color: #333;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f1f6fb;
+    color: #26384a;
+    margin: 0;
 }
 
-/* Menu */
+/* MENU DE NAVEGAÇÃO */
 .navbar {
-    background-color: #563477 !important;
+    background-color: #173b63 !important;
+    padding: 15px 0;
 }
 
 .navbar-brand {
+    font-size: 23px;
     font-weight: bold;
+    color: #ffffff !important;
 }
 
-/* Perfil */
+.nav-link {
+    color: #ffffff !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #9ed5ff !important;
+}
+
+/* PERFIL */
 #perfil {
-    padding: 80px 20px !important;
+    padding: 100px 20px !important;
+    background: linear-gradient(135deg, #e4f1fc, #ffffff);
+    border-radius: 0 0 30px 30px;
 }
 
 #perfil h1 {
-    color: #563477;
+    color: #173b63;
+    font-size: 36px;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 
 #perfil h3 {
-    color: #8b63aa;
+    color: #3979ad;
+    margin-bottom: 20px;
 }
 
-/* Títulos */
+#perfil p {
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+/* TÍTULOS */
 h2 {
-    color: #563477;
+    color: #173b63;
     font-weight: bold;
+    margin-bottom: 25px;
 }
 
-/* Projetos */
+/* CARTÕES DOS PROJETOS */
 .card {
-    border: none;
+    background-color: #ffffff;
+    border: 1px solid #e0eaf3;
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 12px rgba(23, 59, 99, 0.08);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-/* Recurso novo: animação ao passar o mouse */
 .card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(86, 52, 119, 0.2);
+    box-shadow: 0 12px 25px rgba(23, 59, 99, 0.18);
 }
 
-/* Habilidades */
+.card-title {
+    color: #245783;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #526477;
+    line-height: 1.6;
+}
+
+/* HABILIDADES */
 #habilidades {
-    background-color: #eee5f7;
-    border-radius: 15px;
+    background-color: #e4f0fa;
+    border-radius: 20px;
+    padding: 45px 20px !important;
 }
 
-/* Links */
-a {
-    color: #8052a5;
+#habilidades p {
+    color: #245783;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
-/* Rodapé */
+/* CONTATO */
+#contato {
+    padding: 50px 20px !important;
+}
+
+#contato a {
+    color: #2878b8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contato a:hover {
+    color: #173b63;
+    text-decoration: underline;
+}
+
+/* RODAPÉ */
 footer {
-    background-color: #563477 !important;
+    background-color: #173b63 !important;
+    color: #ffffff;
+    padding: 20px !important;
+}
+
+/* ROLAGEM SUAVE */
+html {
+    scroll-behavior: smooth;
 }
